@@ -19,8 +19,14 @@ Tool-agnostic, multi-tenant. Runs the test layers a repository declares (L0 smok
 ### Flux — decision intelligence platform
 Multi-tenant governance of a company's indicators: versioned formulas, an ingestion pipeline with CSV and API connectors, and views for the operations panel, the results meeting and a causal map. Express and PostgreSQL, React 19; L0 unit and L1 integration tests against a real database, deploys gated on CI.
 
+### Woodshed — a music-learning app tutored by AI
+The tutor already works as a Claude plugin: one skill conducts lessons with a memory of previous sessions, another turns a recording into timing, pitch and dynamics data, note by note. The app is in design, with an instrument-panel visual language where every value on screen is measured and says so.
+
 ### Radio watchdog and telemetry — IoT, running in a store
 A Volumio 4 plugin that keeps a store's web radio playing, falling back to a local playlist and resuming the stream on its own. Silence is measured at the sound card, not taken from the player's status. A Prometheus and Grafana stack with blackbox probes shows whether sound is coming out and whose fault it was when it was not.
+
+### Hi-fi streamer — Raspberry Pi 5, Khadas Tone2, 7-inch touch screen
+A living-room network streamer in a 3D-printed enclosure, with its own telemetry: it compares the rate the source reports with the rate the DAC receives, so resampling shows up on a dashboard. It is where the radio watchdog's telemetry was born.
 
 ### Portable modular arcade — hardware and firmware
 <img src="img/arcade-open.jpg" alt="Concept render of the portable arcade with the screen raised" width="360">
