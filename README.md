@@ -2,7 +2,7 @@
 
 Quality engineering, delivery and hands-on software, for twenty years. Based in Porto Alegre, Brazil (UTC−3), open to relocation.
 
-Most of my code lives in private repositories, for client and partner reasons. This page shows what is in them; the full write-up, with more pictures, is at **[mathias.nordflux.co](https://mathias.nordflux.co)**. Happy to walk through any of it on a call: jose.mathiasg@gmail.com · [LinkedIn](https://www.linkedin.com/in/mathiasgusso)
+Most of my code lives in private repositories, for client and partner reasons. This page shows what is in them; the full write-up, with more pictures, is at **[mathias.nordflux.co](https://mathias.nordflux.co/github)**. Happy to walk through any of it on a call: jose.mathiasg@gmail.com · [LinkedIn](https://www.linkedin.com/in/mathiasgusso)
 
 ---
 
