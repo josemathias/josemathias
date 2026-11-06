@@ -11,10 +11,10 @@ Most of my code lives in private repositories, for client and partner reasons. T
 
 Working prototype. A C++20 core holds the model and its rules (CMake, Ninja, CTest with JSON Schema contract checks); a Unity 6.3 client renders terrain, fog and icons in code, builds headless and captures its own screenshots for visual checks. Unreal Engine 5, Go and Java toolchains are set up for the clients and services that come next.
 
-### QA Lab — QA orchestration platform
-<img src="img/qalab-quality.jpg" alt="QA Lab quality and flakiness view" width="720">
+### QA Lab — test observability platform
+<img src="img/qalab-quality.jpg" alt="QA Lab quality view" width="720">
 
-Tool-agnostic, multi-tenant. Runs the test layers a repository declares (L0 smoke and unit to L5 visual and exploratory), normalises every result into one contract, and keeps a human decision loop for waivers and triage. Node.js, Express, PostgreSQL, S3, React 19. Live at [qa.nordflux.co](https://qa.nordflux.co). *Image: hi-fi prototype, fictional data.*
+Tool-agnostic, multi-tenant. Runs the test layers a repository declares (L0 unit, L1 integration with mocks, L2 real integration, L3 end-to-end in a browser, L4 non-functional, L5 manual) and gates deploys on the fast ones, L0 and L1, which are the layers running today. Normalises every result into one contract, keeps its evidence, and records human decisions such as waivers; failed runs get an AI summary on request. Node.js, Express, PostgreSQL, S3 and R2, React 19. Live at [qa.nordflux.co](https://qa.nordflux.co). *Image: hi-fi prototype, fictional data.*
 
 ### Flux — decision intelligence platform
 Multi-tenant governance of a company's indicators: versioned formulas, an ingestion pipeline with CSV and API connectors, and views for the operations panel, the results meeting and a causal map. Express and PostgreSQL, React 19; L0 unit and L1 integration tests against a real database, deploys gated on CI.
